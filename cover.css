@@ -1,0 +1,99 @@
+
+
+html,
+body {
+ background-color: #09E85E;
+  margin-top:1.5rem;
+  margin-bottom: 2rem;
+      color: #212529;
+}
+
+a:hover { color: green!important; /*background-color: royalblue;*/ }
+
+ .phonenumber{
+      font-size:3vw;
+
+                }
+
+.nav-link{}
+
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+/* Inpu text CENTER over the video*/
+    text-align: center;
+    color: white;
+     
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    /* Inpu text CENTER over the video*/
+    text-align: center;
+  color: white;
+ 
+}
+
+.wf-roundedmplus1c { font-family: "M PLUS Rounded 1c"; }
+ 
+ /* Inpu text CENTER over the video*/
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centerWhite {
+  font-size:6vw;
+  font-family: "M PLUS Rounded 1c";
+  font-weight: bold;
+}.
+  
+
+
+
+
+ .bg-dark {
+    background-color: #ffff!important;
+}
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) 
+{
+  .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+
+                          } 
+
+
+}
+
+
+
+
+.navbar-expand-lg .navbar-nav Large devices (desktops, 992px and up)
+@media (min-width: 992px) 
+{ }
+
+
+@media (min-width: 992px)
+.navbar-expand-lg .navbar-nav .nav-link {
+   padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+
+}
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
