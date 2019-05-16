@@ -2,10 +2,10 @@
 
 html,
 body {
- background-color: #09E85E;
+ /*background-color: #09E85E;
   margin-top:1.5rem;
   margin-bottom: 2rem;
-      color: #212529;
+      color: #212529;*/
 
 background-image: linear-gradient(to right, #3d3393 0%, #35eb93 100%);
 
@@ -22,7 +22,7 @@ a:hover { color: green!important; /*background-color: royalblue;*/ }
 
                 }
 
-.nav-link{}
+
 
 .video-responsive{
     overflow:hidden;
@@ -62,11 +62,13 @@ a:hover { color: green!important; /*background-color: royalblue;*/ }
   font-weight: bold;
 }.
   
+div.row{
+   background-color:  #ffff!important;
+}
 
 
 
-
- .bg-dark {
+ .bg-light {
     background-color: #ffff!important;
 }
 
